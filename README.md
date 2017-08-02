@@ -17,3 +17,4 @@ The goal of each `human_logger` project is to use varying methods to produce the
 
 ### CLI ###
 * [Bash Script](./bash)
+* [Python Script](./python)
