@@ -1,6 +1,6 @@
 # human_logger : bash #
 
-This is a sub-project of the [human_logger](../) project written as a bash script.
+This is a sub-project of the [human_logger](../../../) project written as a bash script.
 
 ## Usage ##
 
@@ -8,9 +8,9 @@ This is intended to be used at a standard Linux CLI
 
 `cd human_logger/bash`
 
-All usage examples will display up to 11 of the most recent log entries
+_All usage examples will display up to 11 of the most recent log entries_
 
-### Append new entry to log... ###
+### Append new entry to log ###
 
 `./human_logger.sh helloworld`
 
@@ -20,7 +20,7 @@ All usage examples will display up to 11 of the most recent log entries
 
 `./human_logger.sh`
 
-### Clear log... ###
+### Clear log ###
 
 `./human_logger.sh -c`
 
