@@ -16,4 +16,4 @@ The goal of each `human_logger` project is to use varying methods to produce the
 ## The Sub Projects ##
 
 ### CLI ###
-* (Bash Script)[./bash]
+* [Bash Script](./bash)
