@@ -15,9 +15,10 @@ The goal of each `human_logger` project is to use varying methods to produce the
 
 ## The Sub-Projects ##
 
-### CLI ###
+### CLI Apps ###
 * [Bash Script](./bash)
 * [Python Script](./python)
 
-### Browser ###
+### Browser Apps ###
 * [Vanilla JS](./vanillajs)
+* [jQuery](./jquery)
