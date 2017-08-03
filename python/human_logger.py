@@ -4,33 +4,36 @@
 human_logger
 '''
 
-import logging
 import sys
+import os
 import argparse
+import logging
 
-logFile     = 'log.txt'
-logFormat   = '%(asctime)s\t%(message)s'
+this_dir = os.path.dirname(os.path.realpath(__file__))
+
+log_file     = '%s/log.txt' % this_dir
+log_format   = '%(asctime)s\t%(message)s'
 limit       = 11
 
 message     = ''
-doClearLog  = False
+do_clear_log  = False
 
 #
 #   configure logging
 #
-logging.basicConfig( level=logging.INFO, filename=logFile, format=logFormat, filemode='a' )
+logging.basicConfig( level=logging.INFO, filename=log_file, format=log_format, filemode='a' )
 
 #
 #   listen for options / arguments
 #
 parser = argparse.ArgumentParser( description='human_logger app' )
 parser.add_argument( '-n', '--new', action='store', dest='message', default='', help='the new message to append to log')
-parser.add_argument( '-c', '--clear', action='store_true', dest='doClearLog', default=False, help='clear Log' )
+parser.add_argument( '-c', '--clear', action='store_true', dest='do_clear_log', default=False, help='clear Log' )
 
 results = parser.parse_args()
 
 message     = results.message
-doClearLog  = results.doClearLog
+do_clear_log  = results.do_clear_log
 
 #
 #   append to log
@@ -42,7 +45,7 @@ def log_new_entry( entry ):
 #   get log
 #
 def get_log():
-    with open( logFile, 'r' ) as f:
+    with open( log_file, 'r' ) as f:
         entries = f.readlines()
     return entries[-limit:]
 
@@ -58,8 +61,8 @@ def format_output():
 #
 #   clear log
 #
-if doClearLog :
-    open( logFile, 'w').close()
+if do_clear_log :
+    open( log_file, 'w').close()
     print( 'The log has been cleared.' )
 
 #
