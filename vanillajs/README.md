@@ -1,6 +1,6 @@
 # human_logger : vanilla js #
 
-This is a sub-project of the [human_logger](../../../) project written vanilla js (and simple HTML/CSS).
+This is a sub-project of the [human_logger](../../../) project written with vanilla js (and simple HTML/CSS).
 
 ## Requirements ##
 
