@@ -1,0 +1,71 @@
+/*
+-
+-   css.css
+-
+*/
+
+@import "flex.css";
+
+*, :after, :before {
+    box-sizing : border-box;
+}
+
+html,
+body {
+    margin  : 0;
+    padding : 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+header,
+footer {
+    margin: 1em;
+}
+
+#clear-log {
+    float: right;
+}
+
+#log {
+    margin: 0 1em;
+}
+
+body {
+    background  : black;
+    color       : lightgray;
+    font-family : monospace;
+}
+
+footer label {
+    font-weight : bold;
+    color       : white;
+    font-size   : 22px;
+}
+
+footer input {
+    background-color    : black;
+    color               : lightgray;
+    border-width        : 0;
+    outline             : 0;
+}
+
+footer input[type="submit"] {
+    letter-spacing: 1px;
+}
+
+.sep {
+    color   : gray;
+    margin  : 0 1em;
+}
+
+.btn {
+    cursor: pointer;
+}
+.btn:hover {
+    color: white;
+}
