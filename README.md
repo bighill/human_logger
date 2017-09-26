@@ -1,6 +1,6 @@
 # human_logger #
 
-This `human_logger` project is a personal hobby project to explore various frameworks, languages, and methods that I find interesting. Building this is a learning exercise and hopefully proves useful as a reference for future projects. The `human_logger` app has a simple set of guiding principals that are recreated in various languages and frameworks for use in CLI, browsers, and various apps.
+This `human_logger` project is a personal hobby project to explore various frameworks, languages, and methods that I find interesting. Building this is a learning exercise and hopefully proves useful as a reference for future projects. The `human_logger` project has a simple set of guiding principals that are recreated in various languages and frameworks for use in CLI, browsers, and various apps.
 
 ## Features / Guidlines ##
 
@@ -22,3 +22,4 @@ The goal of each `human_logger` project is to use varying methods to produce the
 ### Browser Apps ###
 * [Vanilla JS](./vanillajs)
 * [jQuery](./jquery)
+* [Vue.js](./vue)
