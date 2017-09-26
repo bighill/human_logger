@@ -1,4 +1,4 @@
-# human_logger : vanilla js #
+# human_logger : Vue.js #
 
 This is a sub-project of the [human_logger](../../../) project written with Vue.js v2 (and simple HTML/CSS).
 
