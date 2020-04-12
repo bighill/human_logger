@@ -1,25 +1,28 @@
-# human_logger #
+# human_logger
 
-This `human_logger` project is a personal hobby project to explore various frameworks, languages, and methods that I find interesting. Building this is a learning exercise and hopefully proves useful as a reference for future projects. The `human_logger` project has a simple set of guiding principals that are recreated in various languages and frameworks for use in CLI, browsers, and various apps.
+This `human_logger` project is a personal hobby project to explore various frameworks, and languages.
 
-## Features / Guidlines ##
+## Features / Guidlines
 
-The goal of each `human_logger` project is to use varying methods to produce these fundemental features:
-* Provide an interface that a human may use to manually append entries to a log.
-* The result and UX should be similar to (or at least stylistically similar to) *nix log files.
-* Each log entries consists of a timestamp and a message.
-* Each log entry persists as either one line of a text file or one item of an array.
-* Every action that is not an error should return/display the most log recent entries.
-* There should always be an option to clear the log storage.
-* Rather than a full CRUD system, `human_logger` requires only __Create__, __Read__, and __Delete All__.
+The goal of each `human_logger` project is to produce these fundemental features:
 
-## The Sub-Projects ##
+- Provide an interface that a human may use to manually append entries to a log.
+- The result and UX should be similar to (or at least stylistically similar to) \*nix log files.
+- Each log entries consists of a timestamp and a message.
+- Each log entry persists as either one line of a text file or one item of an array.
+- Every action that is not an error should return/display the most log recent entries.
+- There should always be an option to clear the log storage.
+- Rather than a full CRUD system, `human_logger` requires only **Create**, **Read**, and **Delete All**.
 
-### CLI Apps ###
-* [Bash Script](./bash)
-* [Python Script](./python)
+## The Sub-Projects
 
-### Browser Apps ###
-* [Vanilla JS](./vanillajs)
-* [jQuery](./jquery)
-* [Vue.js](./vue)
+### CLI Apps
+
+- [Bash Script](./bash)
+- [Python Script](./python)
+
+### Browser Apps
+
+- [Vanilla JS](./vanillajs)
+- [jQuery](./jquery)
+- [Vue.js](./vue)
